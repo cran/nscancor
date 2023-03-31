@@ -1,4 +1,4 @@
-#  Copyright 2013, 2018 Christian Sigg
+#  Copyright 2013, 2018, 2023 Christian Sigg
 #
 #  This program is free software; you can redistribute it and/or modify
 #  it under the terms of the GNU General Public License as published by
@@ -14,5 +14,6 @@
 #  http://www.r-project.org/Licenses/
 
 #' @docType package
+#' @importFrom methods is
 #' @importFrom stats cor rnorm
 NULL

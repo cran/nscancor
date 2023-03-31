@@ -39,7 +39,7 @@ both aforementioned problems. Enforcing a bound on the Euclidean norm
 (also called the L2 norm) of the projections avoids trivial
 correlations. Enforcing a bound on the L1 norm leads to sparse
 solutions, where many of the weights are exactly zero. And enforcing
-non-negativity of the projection weights is useful for analysing data
+non-negativity of the projection weights is useful for analyzing data
 where only positive influence of features is deemed appropriate. The
 algorithm executes iterated regression steps, and the constraints
 enter via the regression functions. `nscancor` is therefore modular,
@@ -56,5 +56,5 @@ specifying the regression function for each domain makes it possible
 to enforce appropriate constraints on each canonical vector.
 
 [This blog
-post](http://sigg-iten.ch/learningbits/2014/01/20/canonical-correlation-analysis-under-constraints/)
+post](https://sigg-iten.ch/learningbits/2014/01/20/canonical-correlation-analysis-under-constraints/)
 explains how to use the package and demonstrates its benefits.
